@@ -43,4 +43,4 @@ O arquivo de log deve ser chamado log.txt.
 Se o arquivo log.txt já existir, os novos logs devem ser adicionados ao final do arquivo.
 Cada entrada de log deve estar em uma nova linha.
 
-Como uma mais-valia adicional, foi proposta a criação de um arquivo de dados do tipo csv para persistir informações de usuários e conta bancária entre as chamadas do programa.  
+Como uma mais-valia adicional, foi proposta a criação de um arquivo de dados do tipo csv para persistir informações de usuários (nome, cpf, data_nascimento, endereço) e conta bancária (dados de até as 2 primeiras contas por usuários, sendo guardados número-conta e saldo) entre as chamadas do programa. 

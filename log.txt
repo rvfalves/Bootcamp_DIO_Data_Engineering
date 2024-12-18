@@ -1,0 +1,99 @@
+[2024-12-18 23:41:23] Função 'add_user' executada com argumentos (<Natural_person: ('Regina', '020') >, [<Natural_person: ('Regina', '020') >]) e {}. Retornou [<Natural_person: ('Regina', '020') >]
+[2024-12-18 23:41:35] Função 'add_user' executada com argumentos (<Natural_person: ('Rafa', '024') >, [<Natural_person: ('Regina', '020') >, <Natural_person: ('Rafa', '024') >]) e {}. Retornou [<Natural_person: ('Regina', '020') >, <Natural_person: ('Rafa', '024') >]
+[2024-12-18 23:41:42] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Regina', '020') >, 'account_number': 1}. Retornou 
+            Agência: 0001
+            C/C: 1
+            Titular: Regina
+            Saldo: 0.0
+        
+[2024-12-18 23:41:42] Função 'add_account' executada com argumentos (<Natural_person: ('Regina', '020') >, <Checking_account: ('0001', '1', 'Regina', '0.0')>) e {}. Retornou None
+[2024-12-18 23:41:46] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Rafa', '024') >, 'account_number': 2}. Retornou 
+            Agência: 0001
+            C/C: 2
+            Titular: Rafa
+            Saldo: 0.0
+        
+[2024-12-18 23:41:46] Função 'add_account' executada com argumentos (<Natural_person: ('Rafa', '024') >, <Checking_account: ('0001', '2', 'Rafa', '0.0')>) e {}. Retornou None
+[2024-12-18 23:41:52] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Regina', '020') >, 'account_number': 3}. Retornou 
+            Agência: 0001
+            C/C: 3
+            Titular: Regina
+            Saldo: 0.0
+        
+[2024-12-18 23:41:52] Função 'add_account' executada com argumentos (<Natural_person: ('Regina', '020') >, <Checking_account: ('0001', '3', 'Regina', '0.0')>) e {}. Retornou None
+[2024-12-18 23:41:55] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Rafa', '024') >, 'account_number': 4}. Retornou 
+            Agência: 0001
+            C/C: 4
+            Titular: Rafa
+            Saldo: 0.0
+        
+[2024-12-18 23:41:55] Função 'add_account' executada com argumentos (<Natural_person: ('Rafa', '024') >, <Checking_account: ('0001', '4', 'Rafa', '0.0')>) e {}. Retornou None
+[2024-12-18 23:42:03] Função 'make_deposit' executada com argumentos (<Checking_account: ('0001', '1', 'Regina', '100.0')>, 100.0) e {}. Retornou True
+[2024-12-18 23:42:09] Função 'make_deposit' executada com argumentos (<Checking_account: ('0001', '2', 'Rafa', '200.0')>, 200.0) e {}. Retornou True
+[2024-12-18 23:42:15] Função 'make_deposit' executada com argumentos (<Checking_account: ('0001', '3', 'Regina', '300.0')>, 300.0) e {}. Retornou True
+[2024-12-18 23:42:19] Função 'make_deposit' executada com argumentos (<Checking_account: ('0001', '4', 'Rafa', '400.0')>, 400.0) e {}. Retornou True
+[2024-12-18 23:42:29] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Regina', '020') >, 'account_number': 5}. Retornou 
+            Agência: 0001
+            C/C: 5
+            Titular: Regina
+            Saldo: 0.0
+        
+[2024-12-18 23:42:29] Função 'add_account' executada com argumentos (<Natural_person: ('Regina', '020') >, <Checking_account: ('0001', '5', 'Regina', '0.0')>) e {}. Retornou None
+[2024-12-18 23:42:37] Função 'make_deposit' executada com argumentos (<Checking_account: ('0001', '5', 'Regina', '500.0')>, 500.0) e {}. Retornou True
+[2024-12-18 23:42:40] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Rafa', '024') >, 'account_number': 6}. Retornou 
+            Agência: 0001
+            C/C: 6
+            Titular: Rafa
+            Saldo: 0.0
+        
+[2024-12-18 23:42:40] Função 'add_account' executada com argumentos (<Natural_person: ('Rafa', '024') >, <Checking_account: ('0001', '6', 'Rafa', '0.0')>) e {}. Retornou None
+[2024-12-18 23:42:47] Função 'make_deposit' executada com argumentos (<Checking_account: ('0001', '6', 'Rafa', '600.0')>, 600.0) e {}. Retornou True
+[2024-12-18 23:43:00] Função 'bank_statement' executada com argumentos (<Checking_account: ('0001', '1', 'Regina', '100.0')>, 'c') e {}. Retornou None
+[2024-12-18 23:43:21] Função 'make_withdraw' executada com argumentos (<Checking_account: ('0001', '4', 'Rafa', '360.0')>, 40.0) e {}. Retornou True
+[2024-12-18 23:43:28] Função 'bank_statement' executada com argumentos (<Checking_account: ('0001', '4', 'Rafa', '360.0')>, 'c') e {}. Retornou None
+[2024-12-18 23:44:02] Função 'add_user' executada com argumentos (<Natural_person: ('Regina', '020') >, [<Natural_person: ('Regina', '020') >]) e {}. Retornou [<Natural_person: ('Regina', '020') >]
+[2024-12-18 23:44:02] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Regina', '020') >, 'account_number': 1}. Retornou 
+            Agência: 0001
+            C/C: 1
+            Titular: Regina
+            Saldo: 0.0
+        
+[2024-12-18 23:44:02] Função 'add_account' executada com argumentos (<Natural_person: ('Regina', '020') >, <Checking_account: ('0001', '1', 'Regina', '0.0')>) e {}. Retornou None
+[2024-12-18 23:44:02] Função 'set_balance' executada com argumentos (<Checking_account: ('0001', '1', 'Regina', '100.0')>, 100.0) e {}. Retornou None
+[2024-12-18 23:44:02] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Regina', '020') >, 'account_number': 3}. Retornou 
+            Agência: 0001
+            C/C: 3
+            Titular: Regina
+            Saldo: 0.0
+        
+[2024-12-18 23:44:02] Função 'add_account' executada com argumentos (<Natural_person: ('Regina', '020') >, <Checking_account: ('0001', '3', 'Regina', '0.0')>) e {}. Retornou None
+[2024-12-18 23:44:02] Função 'set_balance' executada com argumentos (<Checking_account: ('0001', '3', 'Regina', '300.0')>, 300.0) e {}. Retornou None
+[2024-12-18 23:44:02] Função 'add_user' executada com argumentos (<Natural_person: ('Rafa', '024') >, [<Natural_person: ('Regina', '020') >, <Natural_person: ('Rafa', '024') >]) e {}. Retornou [<Natural_person: ('Regina', '020') >, <Natural_person: ('Rafa', '024') >]
+[2024-12-18 23:44:02] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Rafa', '024') >, 'account_number': 2}. Retornou 
+            Agência: 0001
+            C/C: 2
+            Titular: Rafa
+            Saldo: 0.0
+        
+[2024-12-18 23:44:02] Função 'add_account' executada com argumentos (<Natural_person: ('Rafa', '024') >, <Checking_account: ('0001', '2', 'Rafa', '0.0')>) e {}. Retornou None
+[2024-12-18 23:44:02] Função 'set_balance' executada com argumentos (<Checking_account: ('0001', '2', 'Rafa', '200.0')>, 200.0) e {}. Retornou None
+[2024-12-18 23:44:02] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Rafa', '024') >, 'account_number': 4}. Retornou 
+            Agência: 0001
+            C/C: 4
+            Titular: Rafa
+            Saldo: 0.0
+        
+[2024-12-18 23:44:02] Função 'add_account' executada com argumentos (<Natural_person: ('Rafa', '024') >, <Checking_account: ('0001', '4', 'Rafa', '0.0')>) e {}. Retornou None
+[2024-12-18 23:44:02] Função 'set_balance' executada com argumentos (<Checking_account: ('0001', '4', 'Rafa', '360.0')>, 360.0) e {}. Retornou None
+[2024-12-18 23:44:14] Função 'make_deposit' executada com argumentos (<Checking_account: ('0001', '1', 'Regina', '110.0')>, 10.0) e {}. Retornou True
+[2024-12-18 23:44:23] Função 'make_withdraw' executada com argumentos (<Checking_account: ('0001', '2', 'Rafa', '180.0')>, 20.0) e {}. Retornou True
+[2024-12-18 23:44:30] Função 'bank_statement' executada com argumentos (<Checking_account: ('0001', '1', 'Regina', '110.0')>, 'c') e {}. Retornou None
+[2024-12-18 23:44:52] Função 'bank_statement' executada com argumentos (<Checking_account: ('0001', '2', 'Rafa', '180.0')>, 'c') e {}. Retornou None
+[2024-12-18 23:45:03] Função 'create_account' executada com argumentos (<class '__main__.Checking_account'>,) e {'client': <Natural_person: ('Regina', '020') >, 'account_number': 5}. Retornou 
+            Agência: 0001
+            C/C: 5
+            Titular: Regina
+            Saldo: 0.0
+        
+[2024-12-18 23:45:03] Função 'add_account' executada com argumentos (<Natural_person: ('Regina', '020') >, <Checking_account: ('0001', '5', 'Regina', '0.0')>) e {}. Retornou None
+[2024-12-18 23:45:17] Função 'make_deposit' executada com argumentos (<Checking_account: ('0001', '5', 'Regina', '500.0')>, 500.0) e {}. Retornou True
