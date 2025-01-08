@@ -1,29 +1,23 @@
 # Bootcamp_DIO_Data_Engineering
- Project repository of Bootcamp DIO/NTTDATA - Data Engineering
+ Project repository of Bootcamp DIO/NTTDATA - Data Engineering with Python and Power BI
 
- ## Project 1 - Description:
- "Objetivo: Criar um sistema bancário com as operações: sacar, depositar e visualizar extrato. 
- Fomos contratados por um grande banco para desenvolver o seu novo sistema. Esse banco deseja modernizar suas operações e para isso escolheu a linguagem Python. Para a primeira versão do sistema devemos implementar apenas 3 operações: depósito, saque e extrato.
- Deve ser possível depositar valores positivos para a minha conta bancária. A v1 do projeto trabalha apenas com 1 usuário, dessa forma não precisamos nos preocupar em identificar qual é o número da agência e conta bancária. Todos os depósitos devem ser armazenados em uma variável e exibidos na operação de extrato.
- O sistema deve permitir realizar 3 saques diários com limite máximo de R$ 500,00 por saque. Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacar o dinheiro por falta de saldo. Todos os saques devem ser armazenados em uma variável e exibidos na operação de extrato.
- Essa operação deve listar todos os depósitos e saques realizados na conta. No fim da listagem deve ser exibido o saldo atual da conta. Se o extrato estiver em branco, exibir a mensagem: Não foram realizadas movimentações.
- Os valores devem ser exibidos utilizando o formato R$ xxx.xx, exemplo:
- 1500.45 = R$ 1500.45"
+ ## Project version 1 - Description:
+Objective: Create a banking system with the following operations: withdraw, deposit and view statement. We were hired by a large bank to develop its new system. This bank wants to modernize its operations and for this purpose it chose the Python language. For the first version of the system we must implement only 3 operations: deposit, withdrawal and statement. It must be possible to deposit positive amounts to the bank account. The v1 of the project works with only 1 user, so we do not need to worry about identifying the branch number and bank account. All deposits must be stored in a variable and displayed in the statement operation. The system must allow 3 daily withdrawals with a maximum limit of R$500.00 per withdrawal. If the user does not have a balance in the account, the system must display a message informing that it will not be able to withdraw the money due to lack of balance. All withdrawals must be stored in a variable and displayed in the statement operation. This operation must list all deposits and withdrawals made in the account. At the end of the list the current account balance must be displayed. If the statement is blank, display the message: No transactions were made. The amounts must be displayed using the format R$ xxx.xx, for example: 1500.45 = R$ 1500.45
 
-## Project 2 - Description:
-Objetivo geral: Separar as operações existentes de saque, depósito e extrato em funções. Criar duas novas funções: cadastrar usuário (cliente do banco) e cadastrar conta bancária (vincular com usuário).
-Regras a seguir para as funções:
-    Saque: A função saque deve receber argumentos apenas por nome (keyword only). Sugestão de argumentos: saldo, valor, extrato, limite, numero_saques, limite_saques. Sugestão de retorno: saldo e extrato.
-    Depósito: A função deposito deve receber argumentos apenas por posição (positional only). Sugestão de argumentos: saldo, valor, extrato. Sugestão de retorno: saldo e extrato.
-    Extrato: A função extrato deve receber argumentos por posição e nome (positional only and keyword only). Argumentos posicionais: saldo, argumentos nomeados: extrato.
-    Criar usuário (cliente): O programa deve armazenar os usuários em uma lista, um usuário é composto por: nome, data de nascimento, cpf e endereço. O endereço é uma string com formato: logradouro, numero - bairro - cidade/sigla estado. Deve ser armazenado somente os números do CPF. Não podemos cadastrar dois usuários com o mesmo CPF.
-    Criar conta-corrente: O programa deve armazenar contas em uma lista, uma conta é composta por: agência, número da conta, usuário. O número da conta é sequencial, iniciando em 1. O número da agência é fixo: "0001". O usuário pode ter mais de 1 conta, mas uma conta pertence apenas a 1 usuário.
+## Project version 2 - Description:
+Objective: Separate the existing withdrawal, deposit and statement operations into functions. Create two new functions: register user (bank customer) and register bank account (link to the user).
+Rules to follow for the functions:
+Withdrawal: The withdrawal function must receive arguments only by name (keyword only). Suggested arguments: balance, amount, statement, limit, withdrawal_number, withdrawal_limit. Suggested return: balance and statement.
+Deposit: The deposit function must receive arguments only by position (positional only). Suggested arguments: balance, amount, statement. Suggested return: balance and statement.
+Statement: The statement function must receive arguments by position and name (positional only and keyword only). Positional arguments: balance, named arguments: statement.
+Create user (customer): The program must store the users in a list, a user is composed of: name, date of birth, CPF (Brazilian tax identification number) and address. The address is a string with the format: street, number - neighborhood - city/state abbreviation. Only CPF numbers should be stored. We cannot register two users with the same CPF.
+Creating a checking account: The program must store accounts in a list. An account is made up of: branch, account number, user. The account number is sequential, starting at 1. The branch number is fixed: "0001". A user can have more than 1 account, but each account belongs to only 1 user.
 
-## Project 3 - Description:
-Objetivo geral: Iniciar modelagem do sistema bancário em POO. Adicionar classes para cliente e as operações bancárias: depósito e saque.
-Atualizar a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários. O código deve seguir o modelo de classes UML a seguir:
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/rvf_alves/Documents/Comp/Bootcamp_Python/Projetos/Bootcamp_DIO_Data_Engineering/Trilha%20Python%20-%20desafio.png?version%3D1727097509055)
-Após concluir a modelagem das classes e a criação dos métodos, atualizar os métodos que tratam as opções do menu, para funcionarem com as classes modeladas.
+## Project version 3 - Description:
+Objective: Start modeling the banking system in OOP. Add classes for customers and banking operations: deposit and withdrawal.
+Update the implementation of the banking system to store customer and bank account data in objects instead of dictionaries. The code should follow the UML class model below:
+![model]([https://file%2B.vscode-resource.vscode-cdn.net/Users/rvf_alves/Documents/Comp/Bootcamp_Python/Projetos/Bootcamp_DIO_Data_Engineering/Trilha%20Python%20-%20desafio.png?version%3D1727097509055])([https://github.com/rvfalves/Bootcamp_DIO_Data_Engineering/blob/main/Trilha%20Python%20-%20desafio.png])
+After completing the modeling of the classes and the creation of the methods, update the methods that handle the menu options to work with the modeled classes.
 
 ## Project 4 - Description:
 Com os novos conhecimentos adquiridos sobre decoradores, geradores e iteradores, você foi encarregado de implementar as seguintes funcionalidades no sistema:
