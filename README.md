@@ -16,25 +16,28 @@ Creating a checking account: The program must store accounts in a list. An accou
 ## Project version 3 - Description:
 Objective: Start modeling the banking system in OOP. Add classes for customers and banking operations: deposit and withdrawal.
 Update the implementation of the banking system to store customer and bank account data in objects instead of dictionaries. The code should follow the UML class model below:
-![model]([https://file%2B.vscode-resource.vscode-cdn.net/Users/rvf_alves/Documents/Comp/Bootcamp_Python/Projetos/Bootcamp_DIO_Data_Engineering/Trilha%20Python%20-%20desafio.png?version%3D1727097509055])([https://github.com/rvfalves/Bootcamp_DIO_Data_Engineering/blob/main/Trilha%20Python%20-%20desafio.png])
+
+![model]([https://file%2B.vscode-resource.vscode-cdn.net/Users/rvf_alves/Documents/Comp/Bootcamp_Python/Projetos/Bootcamp_DIO_Data_Engineering/Trilha%20Python%20-%20desafio.png?version%3D1727097509055])
+
+[https://github.com/rvfalves/Bootcamp_DIO_Data_Engineering/blob/main/Trilha%20Python%20-%20desafio.png]
+
 After completing the modeling of the classes and the creation of the methods, update the methods that handle the menu options to work with the modeled classes.
 
-## Project 4 - Description:
-Com os novos conhecimentos adquiridos sobre decoradores, geradores e iteradores, você foi encarregado de implementar as seguintes funcionalidades no sistema:
-1. Decorador de log: Implemente um decorador que seja aplicado a todas as funções de transações (depósito, saque, criação de conta, etc). Esse decorador deve registrar (printar) a data e hora de cada transação, bem como o tipo de transação.
-2. Gerador de relatórios: Crie um gerador que permita iterar sobre as transações de uma conta e retorne, uma a uma, as transações que foram realizadas. Esse gerador deve também ter uma forma de filtrar as transações baseado em seu tipo (por exemplo, apenas saques ou apenas depósitos). 
-3. Iterador personalizado: Implemente um iterador personalizado ContaIterador que permita iterar sobre todas as contas do banco, retornando informações básicas de cada conta (número, saldo atual, etc).
+## Project version 4 - Description:
+With the new knowledge acquired about decorators, generators and iterators, you were tasked with implementing the following functionalities in the system:
+1. Log decorator: Implement a decorator that is applied to all transaction functions (deposit, withdrawal, account creation, etc.). This decorator should record (print) the date and time of each transaction, as well as the transaction type.
+2. Report generator: Create a generator that allows you to iterate over the transactions of an account and return, one by one, the transactions that were performed. This generator should also have a way to filter the transactions based on their type (for example, only withdrawals or only deposits).
+3. Custom iterator: Implement a custom iterator AccountIterator that allows you to iterate over all the bank accounts, returning basic information about each account (number, current balance, etc.).
 
 ## Project 5 - Description:
-Em nossa aplicação financeira, identificamos a necessidade de rastrear e auditar as ações dos usuários para garantir a segurança e a integridade das operações. O console tem sido útil até agora, mas a quantidade crescente de atividades torna difícil acompanhar todas as operações em tempo real. Portanto, decidimos que é vital registrar essas informações em um arquivo para análise posterior e backup contínuo.
-Modificar o atual decorador de log, que imprime informações no console, para que ele salve essas informações em um arquivo de log, possibilitando uma revisão mais fácil e uma análise mais detalhada das operações dos usuários.
-O decorador deve registrar o seguinte para cada chamada de função:
-Data e hora atuais
-Nome da função
-Argumentos da função
-Valor retornado pela função
-O arquivo de log deve ser chamado log.txt.
-Se o arquivo log.txt já existir, os novos logs devem ser adicionados ao final do arquivo.
-Cada entrada de log deve estar em uma nova linha.
-
-Como uma mais-valia adicional, foi proposta a criação de um arquivo de dados do tipo csv para persistir informações de usuários (nome, cpf, data_nascimento, endereço) e conta bancária (dados de até as 2 primeiras contas por usuários, sendo guardados número-conta e saldo) entre as chamadas do programa. 
+In our financial application, we identified the need to track and audit user actions to ensure the security and integrity of operations. The console has been useful so far, but the increasing amount of activity makes it difficult to track all operations in real time. Therefore, we decided that it is vital to log this information to a file for later analysis and ongoing backup.
+Modify the current log decorator, which prints information to the console, so that it saves this information to a log file, allowing for easier review and more detailed analysis of user operations.
+The decorator should log the following for each function call:
+Current date and time
+Function name
+Function arguments
+Value returned by the function
+The log file should be called log.txt.
+If the log.txt file already exists, the new logs should be appended to the end of the file.
+Each log entry should be on a new line.
+As an additional added value, it was proposed to create a csv data file to persist user information (name, CPF, date of birth, address) and bank account information (account number and balance from up to 2 accounts per user) between program calls.
