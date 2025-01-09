@@ -17,9 +17,7 @@ Creating a checking account: The program must store accounts in a list. An accou
 Objective: Start modeling the banking system in OOP. Add classes for customers and banking operations: deposit and withdrawal.
 Update the implementation of the banking system to store customer and bank account data in objects instead of dictionaries. The code should follow the UML class model below:
 
-![model]([https://file%2B.vscode-resource.vscode-cdn.net/Users/rvf_alves/Documents/Comp/Bootcamp_Python/Projetos/Bootcamp_DIO_Data_Engineering/Trilha%20Python%20-%20desafio.png?version%3D1727097509055])
-
-[https://github.com/rvfalves/Bootcamp_DIO_Data_Engineering/blob/main/Trilha%20Python%20-%20desafio.png]
+<img src="/Trilha Python - desafio.png" alt="model" style="height: 500px; width:800px;"/>
 
 After completing the modeling of the classes and the creation of the methods, update the methods that handle the menu options to work with the modeled classes.
 
